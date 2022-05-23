@@ -1,0 +1,30 @@
+# RB101
+# lesson 6
+# blackjack flow
+
+1. Hands are dealt
+2. Display the dealt cards
+2a. Only one card of dealer's is shown.
+2b. Display both of the player's cards.
+3. Player is asked if they would like to hit or stay
+4. Player makes a choice
+4a. Player hits and busts:
+4a-1. Display the player's hand and score.
+4a-2. Show the dealer's current hand and score, display additional dealer's cards as they are dealt.
+4a-3. Display an "end of round outcome message" stating that the player bust so the dealer won.
+4a-4. Display "end of round information"
+4b. Player hits but doesn't bust:
+4b-1. Display the player's hand and score.
+4b-1. Go back to step 3.
+4c. Player stays
+5. Same step as 4a-2 (show dealer's current hand and display any additional cards)
+5a. If dealer busts:
+5a-1. Display an "end of round outcome message" stating that the dealer bust so the player won.
+5a-2. Display "end of round information"
+5b. Neither player busts:
+5b-1. Display an "end of round outcome message" stating which player won.
+5b-2. Display "end of round information"
+
+
+
+
